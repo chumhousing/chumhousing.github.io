@@ -1,0 +1,2 @@
+the aspect ratio all the images must be exactly 1:4
+Only use high resolution images
