@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 the aspect ratio all the images must be exactly 1:4
+=======
+the aspect ratio all the images must be exactly 1:4
+>>>>>>> FETCH_HEAD
 Only use high resolution images
