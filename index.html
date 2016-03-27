@@ -44,6 +44,17 @@ body,td,th {
 </head>
 
 <body class="home">
+	
+	<!--Load FB SDK for like button in social media section-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+  		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
 	<div class="wrap">
 		<!-- HEADER IMG -->
 		<!-- <div id="top-nav">
@@ -212,7 +223,8 @@ body,td,th {
 						<div class="widget clearfix">
 							<h4>Social Media</h4>
 
-							<p><a href="https://www.facebook.com/pages/CHUM-Co-op-Housing-University-of-Maryland/789090271169706?fref=ts">Facebook</a></p>
+							<p><a href="https://www.facebook.com/pages/CHUM-Co-op-Housing-University-of-Maryland/789090271169706?fref=ts">Facebook</a>
+							<div class="fb-like" data-href="https://www.facebook.com/coophousingumd/?fref=ts" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></p>
 
 							<p><a href="https://www.google.com/url?q=https%3A//orgsync.com/64785/chapter&sa=D&sntz=1&usg=AFQjCNHnY40ARMo8laZGSn1qXZ2vAINx_Q">Orgsync</a></p>
 
@@ -220,8 +232,10 @@ body,td,th {
 
 							<p><a href="http://chumily.tumblr.com/">Tumblr</a></p>
 
-							<p><a href="https://twitter.com/chumlyfe">Twitter</a></p>
-                            							<p><a href="http://www.ic.org/directory/co-op-housing-university-of-maryland/">FIC</a></p>
+							<p><a href="https://twitter.com/chumlyfe">Twitter</a><a href="https://twitter.com/chumlyfe" class="twitter-follow-button" data-show-count="false">Follow @chumlyfe</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+							</script></p>
+                            <p><a href="http://www.ic.org/directory/co-op-housing-university-of-maryland/">FIC</a></p>
 
 
 							<p></p>
