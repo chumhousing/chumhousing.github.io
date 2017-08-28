@@ -342,6 +342,7 @@ span{
 
 #eventlist> li{
   padding-bottom: 5%;
+	z-index: 1;
 }
 .eventtitle{
     font-family: "Ubuntu",sans-serif;
