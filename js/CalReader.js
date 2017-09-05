@@ -6,7 +6,7 @@
     var defaults = $.extend({
         calendarId: 'aa08m6kgpqd4scj03ue735cjho@group.calendar.google.com',
         apiKey: 'Public_API_Key',
-        dateFormat: 'LongDate',
+        dateFormat: 'LongDate+startingTime',
         errorMsg: 'No events in calendar',
         maxEvents: 10,
         futureEventsOnly: true,
