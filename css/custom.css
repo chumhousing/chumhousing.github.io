@@ -35,8 +35,8 @@ a:hover{
 }
 
 hr{
-  width: 30%;
-  border-top: 8px solid #33CC66;
+  width: 45%;
+  border-top: 4px solid #33CC66;
 }
 
 li{
@@ -131,7 +131,10 @@ span{
 }
 
 .wide{
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .buttonme{
@@ -158,12 +161,12 @@ span{
 /* Footer */
 .feetbg{
   background-color: #33CC66;
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 .feet{
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 9%;
+  padding-bottom: 9%;
   color: white;
   font-family: "Ubuntu", sans-serif;
 }
@@ -182,7 +185,7 @@ span{
 }
 
 .footfix{
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 .copyright{
