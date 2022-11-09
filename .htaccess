@@ -1,4 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine on
-rewritecond %{http_host} ^chum.coop [nc]
-rewriterule ^(.*)$ http://www.chum.coop/$1 [r=301,nc] 
