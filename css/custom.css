@@ -26,17 +26,19 @@ p{
 }
 
 a{
-  color: black;
+  color: #008000;
+  text-decoration: underline dotted;
 }
 
 a:hover{
-  color: #33CC66;
+  color: #008000;
+  opacity: .5;
   text-decoration: none;
 }
 
 hr{
   width: 45%;
-  border-top: 4px solid #33CC66;
+  border-top: 4px solid #008000;
 }
 
 li{
@@ -58,7 +60,7 @@ span{
 
 .lead{
   font-family: 'Lora',serif;
-  color: #33CC66;
+  color: #008000;
   font-size: 1.25em;
 }
 
@@ -106,7 +108,7 @@ span{
 }
 
 .highlight{
-  color: #33CC66;
+  color: #008000;
 }
 
 .highlight:hover{
@@ -114,11 +116,11 @@ span{
 }
 
 .mint{
-  color: #33CC66;
+  color: #008000;
 }
 
 .mint> a{
-  color: #33CC66;
+  color: #008000;
 }
 
 .mint> a:hover{
@@ -138,7 +140,7 @@ span{
 }
 
 .buttonme{
-  color: #33CC66;
+  color: #008000;
   padding: 12px 12px;
   padding-left: 0px;
   text-align: center;
@@ -160,7 +162,7 @@ span{
 
 /* Footer */
 .feetbg{
-  background-color: #33CC66;
+  background-color: #008000;
   margin-top: 7%;
 }
 
@@ -217,11 +219,11 @@ span{
 }
 
 .icon-bar{
-  background-color: #33CC66;
+  background-color: #008000;
 }
 
 .active{
-  color: #33CC66;
+  color: #008000;
   font-weight: bold;
 }
 
@@ -253,7 +255,7 @@ span{
 }
 
 .navbar .brand, .navbar .nav > li > a:hover {
-  color: #33CC66;
+  color: #008000;
   background-color: transparent;
   font-size: inherit;
 }
@@ -270,7 +272,7 @@ span{
 
 .bgboxside{
   position: absolute;
-  background-color: #33CC66;
+  background-color: #008000;
   top: 40%;
   left: -4%;
   /* width: 100%; */
@@ -281,7 +283,7 @@ span{
 
 .bgboxcards{
   position: absolute;
-  background-color: #33CC66;
+  background-color: #008000;
   top: 25%;
   left: -5%;
   /* width: 100%; */
@@ -291,7 +293,7 @@ span{
 
 .bgboxdown{
   position: absolute;
-  background-color: #33CC66;
+  background-color: #008000;
   top: 50%;
   left: 10%;
   width: 80%;
@@ -300,7 +302,7 @@ span{
 }
 
 .bgboxtext{
-  background-color: #33CC66;
+  background-color: #008000;
 }
 
 /* Cards */
@@ -325,7 +327,7 @@ span{
   margin-bottom: 5%;
   padding: 5%;
   padding-bottom: 10%;
-  background-color: #33CC66;
+  background-color: #008000;
   color: white;
 }
 
